@@ -48,13 +48,9 @@ class WebSearchTool(Tool):
     Search providers (in priority order):
     1. Tavily Search API (if TAVILY_API_KEY in config)
     2. Brave Search API (if BRAVE_API_KEY or API_KEY in config) - backward compatible
-    3. DuckDuckGo HTML scraping (no API key required)
-    4. Google HTML scraping (fallback)
+    3. DuckDuckGo HTML scraping/Google HTML scraping (no API key required)
     
-    Backward Compatibility:
     - Existing configs with 'apiKey' field are supported (treated as Brave key)
-    - If 'braveApiKey' is set, it takes precedence over 'apiKey'
-    - Brave API support is unchanged and fully compatible
     """
 
     name = "web_search"
