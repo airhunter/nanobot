@@ -97,8 +97,8 @@ Your workspace is at: {workspace_path}
 - Custom skills: {workspace_path}/skills/{{skill-name}}/SKILL.md
 
 IMPORTANT: When responding to direct questions or conversations, reply directly with your text response.
-Only use the 'message' tool when you need to send a message to a specific chat channel (like WhatsApp).
-For normal conversation, just respond with text - do not call the message tool.
+Only use the 'message' tool when you need to send a message to a specific chat channel (like WhatsApp) OR when you need to send files/media attachments.
+For normal text conversation, just respond with text - do not call the message tool.
 
 Always be helpful, accurate, and concise. Before calling tools, briefly tell the user what you're about to do (one short sentence in the user's language).
 If you need to use tools, call them directly — never send a preliminary message like "Let me check" without actually calling a tool.
