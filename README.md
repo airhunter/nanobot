@@ -149,6 +149,18 @@ Add or merge these **two parts** into your config (other options have defaults).
 }
 ```
 
+*Optional: set a separate vision model (used when images are attached)*:
+```json
+{
+  "agents": {
+    "defaults": {
+      "model": "anthropic/claude-opus-4-5",
+      "vision_model": "anthropic/claude-sonnet-4-6"
+    }
+  }
+}
+```
+
 **3. Chat**
 
 ```bash

@@ -186,6 +186,7 @@ class AgentDefaults(Base):
 
     workspace: str = "~/.nanobot/workspace"
     model: str = "anthropic/claude-opus-4-5"
+    vision_model: str = ""  # Optional vision-capable model (e.g. "anthropic/claude-sonnet-4-6")
     max_tokens: int = 8192
     temperature: float = 0.1
     max_tool_iterations: int = 40
